@@ -1,0 +1,37 @@
+@import './variables.scss';
+@import './z-index.scss';
+@import './animations.scss';
+@import './components/terminal.scss';
+@import './components/resize-handle.scss';
+@import './components/code.scss';
+@import './components/editor.scss';
+@import './components/toast.scss';
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 20px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 100vh;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #262626;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
